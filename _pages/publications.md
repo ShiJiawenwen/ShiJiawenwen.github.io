@@ -18,6 +18,3 @@ author_profile: true
 * Yue Huang, **Jiawen Shi**, Yuan Li, Chenrui Fan, Siyuan Wu, Qihui Zhang, Yixin Liu, Pan Zhou, Yao Wan, Neil Zhenqiang Gong, Lichao Sun. "[Metatool benchmark for large language models: Deciding whether to use tools and which to use](https://arxiv.org/pdf/2310.03128)". In *International Conference on Learning Representations (ICLR)*, 2024. [[Code]](https://github.com/HowieHwong/MetaTool)
 
 * **Jiawen Shi**, Yixin Liu, Pan Zhou, Lichao Sun. "[Poster: BadGPT: Exploring Security Vulnerabilities of ChatGPT via Backdoor Attacks to InstructGPT](https://arxiv.org/pdf/2304.12298)". In *ISOC Network and Distributed System Security Symposium (NDSS)*, 2023.
-
-
-
