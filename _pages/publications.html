@@ -5,32 +5,19 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+* **Jiawen Shi**, Zenghui Yuan, Guiyao Tie, Pan Zhou, Neil Zhenqiang Gong, Lichao Sun. "[Prompt Injection Attack to Tool Selection in LLM Agents](https://arxiv.org/pdf/2504.19793)". In *ISOC Network and Distributed System Security Symposium (NDSS)*, 2026.
+
+* Zenghui Yuan, Yangming Xu, **Jiawen Shi**, Pan Zhou, Lichao Sun. "[Merge Hijacking: Backdoor Attacks to Model Merging of Large Language Models](https://arxiv.org/pdf/2505.23561)". In *Annual Meeting of the Association for Computational Linguistics (ACL)*, 2025.
+
+* Zenghui Yuan, **Jiawen Shi**, Pan Zhou, Neil Zhenqiang Gong, Lichao Sun. "[BadToken: Token-level Backdoor Attacks to Multi-modal Large Language Models](https://openaccess.thecvf.com/content/CVPR2025/papers/Yuan_BadToken_Token-level_Backdoor_Attacks_to_Multi-modal_Large_Language_Models_CVPR_2025_paper.pdf)". In *IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 2025.
+
+* **Jiawen Shi**, Zenghui Yuan, Yinuo Liu, Yue Huang, Pan Zhou, Lichao Sun, Neil Zhenqiang Gong. "[Optimization-based Prompt Injection Attack to LLM-as-a-Judge](https://dl.acm.org/doi/pdf/10.1145/3658644.3690291)". In *ACM Conference on Computer and Communications Security (CCS)*, 2024. [[Code]](https://github.com/ShiJiawenwen/JudgeDeceiver)
+
+* Yue Huang, **Jiawen Shi**, Yuan Li, Chenrui Fan, Siyuan Wu, Qihui Zhang, Yixin Liu, Pan Zhou, Yao Wan, Neil Zhenqiang Gong, Lichao Sun. "[Metatool benchmark for large language models: Deciding whether to use tools and which to use](https://arxiv.org/pdf/2310.03128)". In *International Conference on Learning Representations (ICLR)*, 2024. [[Code]](https://github.com/HowieHwong/MetaTool)
+
+* **Jiawen Shi**, Yixin Liu, Pan Zhou, Lichao Sun. "[Poster: BadGPT: Exploring Security Vulnerabilities of ChatGPT via Backdoor Attacks to InstructGPT](https://arxiv.org/pdf/2304.12298)". In *ISOC Network and Distributed System Security Symposium (NDSS)*, 2023.
 
 
 
