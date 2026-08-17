@@ -25,7 +25,6 @@ redirect_from:
 </style>
 
 <div class="cv-actions">
-  <a href="/files/Jiawen_Shi_CV.pdf">📄 Download CV (PDF)</a>
   <a href="https://scholar.google.com/citations?user=yy8oPX0AAAAJ">🎓 Google Scholar</a>
   <a href="https://github.com/ShiJiawenwen">💻 GitHub</a>
 </div>
