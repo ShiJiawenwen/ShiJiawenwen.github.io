@@ -18,7 +18,7 @@ Previously, I received my M.S. and B.S. degrees from Central South University (C
 
 Selected Publications
 ------
-* **Jiawen Shi**, Zenghui Yuan, Guiyao Tie, Pan Zhou, Neil Zhenqiang Gong, Lichao Sun. "[Prompt Injection Attack to Tool Selection in LLM Agents](https://arxiv.org/pdf/2504.19793)". In *ISOC Network and Distributed System Security Symposium (NDSS)*, 2026.
+* **Jiawen Shi**, Zenghui Yuan, Guiyao Tie, Pan Zhou, Neil Zhenqiang Gong, Lichao Sun. "[Prompt Injection Attack to Tool Selection in LLM Agents](https://arxiv.org/pdf/2504.19793)". In *ISOC Network and Distributed System Security Symposium (NDSS)*, 2026.  [[Code]](https://github.com/ShiJiawenwen/ToolHijacker)
 
 * **Jiawen Shi**, Zenghui Yuan, Yinuo Liu, Yue Huang, Pan Zhou, Lichao Sun, Neil Zhenqiang Gong. "[Optimization-based Prompt Injection Attack to LLM-as-a-Judge](https://dl.acm.org/doi/pdf/10.1145/3658644.3690291)". In *ACM Conference on Computer and Communications Security (CCS)*, 2024. [[Code]](https://github.com/ShiJiawenwen/JudgeDeceiver)
 
