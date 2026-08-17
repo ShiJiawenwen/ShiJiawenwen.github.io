@@ -1,4 +1,3 @@
-```markdown
 ---
 layout: archive
 title: "Curriculum Vitae"
@@ -26,4 +25,3 @@ School of Computer Science
 **B.S. in Electronic Information Engineering**  
 2015 – 2019  
 School of Automation
-```
